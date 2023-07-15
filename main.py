@@ -5,9 +5,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from tools import ImageCaptionTool, ObjectDetectionTool
 
-##############################
-### initialize agent #########
-##############################
+# initialize agent 
 tools = [ImageCaptionTool(), ObjectDetectionTool()]
 
 conversational_memory = ConversationBufferWindowMemory(
@@ -33,7 +31,7 @@ agent = initialize_agent(
 )
 
 # set title
-st.title('Ask a question to an image')
+st.title('Chat with an image of your choice')
 
 # set header
 st.header("Please upload an image")
@@ -48,9 +46,7 @@ if file:
     # text input
     user_question = st.text_input('Ask a question about your image:')
 
-    ##############################
-    ### compute agent response ###
-    ##############################
+    # compute agent response 
     with NamedTemporaryFile(dir='.') as f:
         f.write(file.getbuffer())
         image_path = f.name
