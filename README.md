@@ -25,8 +25,6 @@ Visionary Dialog is an innovative web application developed to facilitate engagi
 
 To experience Visionary Dialog, follow these simple steps:
 
-To experience Visionary Dialog, follow these simple steps:
-
 1. Clone the project repository to your local machine.
 
 2. Install the required dependencies 
