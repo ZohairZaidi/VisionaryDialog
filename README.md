@@ -20,3 +20,11 @@ Visionary Dialog is an innovative web application developed to facilitate engagi
 4. **Image Analysis:** Through the integration of langchains' image recognition algorithms, Visionary Dialog will analyze the uploaded image, identifying and describing objects, scenes, and visual attributes present in the picture.
 
 5. **Engaging Conversations:** Users can explore a wide range of topics related to the image, gaining valuable insights and enhancing their understanding of the visual content.
+
+## Getting Started
+
+To experience Visionary Dialog, follow these simple steps:
+
+1. Clone the project repository to your local machine.
+
+2. Install the required dependencies by running the following command:
