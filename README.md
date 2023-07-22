@@ -33,3 +33,11 @@ To experience Visionary Dialog, follow these simple steps:
 
 ```bash
 pip install -r requirements.txt
+
+
+3. Obtain an API key for the OpenAI Language Model API and replace it in the designated configuration file.
+
+4. Launch the web application using Streamlit by running:
+
+'''bash
+streamlit run app.py
