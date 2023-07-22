@@ -33,7 +33,7 @@ To experience Visionary Dialog, follow these simple steps:
 
 ```bash
 pip install -r requirements.txt
-
+```bash
 
 3. Obtain an API key for the OpenAI Language Model API and replace it in the designated configuration file.
 
