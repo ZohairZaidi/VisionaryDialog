@@ -29,15 +29,12 @@ To experience Visionary Dialog, follow these simple steps:
 
 1. Clone the project repository to your local machine.
 
-2. Install the required dependencies by running the following command:
-
-```bash
-pip install -r requirements.txt
-```bash
+2. Install the required dependencies 
 
 3. Obtain an API key for the OpenAI Language Model API and replace it in the designated configuration file.
+   
+5. Launch the web application using Streamlit 
 
-4. Launch the web application using Streamlit by running:
+6. Access the web application through your browser and start conversing with the chatbot by uploading an image.
 
-'''bash
-streamlit run app.py
+
